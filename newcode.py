@@ -1,7 +1,8 @@
-import appp
+import module
 
-dir(appp)
+dir(module)
 x = int(input("Enter a number: "))
 
-a = appp.check_prime(x)
+a = module.check_prime(x)
 print(a)
+
